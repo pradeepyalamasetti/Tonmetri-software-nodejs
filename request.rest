@@ -1,0 +1,63 @@
+Get http://localhost:5000/api/get
+
+###
+POST http://localhost:5000/api/post
+Content-Type:application/json  
+
+{
+    "name": "Raju",
+    "email": "Rju@gmail.com",
+    "contact": "9856231210"
+}
+
+###
+DELETE http://localhost:5000/api/remove/4
+
+###
+PUT http://localhost:5000/api/update/6
+Content-Type:application/json  
+
+{
+    "name": "srinu",
+    "email": "srinu@gmail.com",
+    "contact": "90221212121"
+}
+
+###
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/users  
+Content-Type:application/json  
+
+{
+    "name":"pradeep",
+    "password":"password"
+}
+
+###
+POST http://localhost:5000/users/login
+Content-Type:application/json  
+
+{
+    "name":"pradeep",
+    "password":"password"
+}
+
+###
+POST http://localhost:5000/users/login
+Content-Type:application/json  
+
+{
+    "name":"pradee",
+    "password":"password"
+}
+
+###
+POST http://localhost:5000/users/login
+Content-Type:application/json  
+
+{
+    "name":"pradeep",
+    "password":"pass"
+}
